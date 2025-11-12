@@ -1,8 +1,8 @@
-ABC.exe:main.o bigc.o fact1.o
-        gcc -o ABC.exe main.o bigc.o fact1.o
+ABC.exe:main.o big3.o fact.o
+        gcc -o ABC.exe main.o big3.o fact.o
 main.o:main.c
         gcc -c main.c
-bigc.o:bigc.c
-        gcc -c bigc.c
-fact1.o:fact1.c
-        gcc -c fact1.c
+big3.o:big3.c
+        gcc -c big3.c
+fact.o:fact.c
+        gcc -c fact.c
