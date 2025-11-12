@@ -13,7 +13,5 @@ void biggest3() {
     } else {
         printf("%d is the largest number.\n", num3);
     }
-
-//    return 0;
 }
 
